@@ -1,0 +1,25 @@
+li {
+    font-size: 21px;
+    font-family: 'Arial', sans-serif;
+    list-style-type: '*';
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#CatPic {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-fit: fill;
+    margin:5px;
+    border-radius: 100px; 
+    border: 3px solid green;
+    box-shadow: 0 0 7px #666;
+}
+img:hover {
+  border: 3px solid #D8BFD8;
